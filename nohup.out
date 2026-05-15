@@ -105,3 +105,5 @@
 2026-05-10T18:09:10.539+05:30  INFO 10605 --- [demo] [nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2026-05-10T18:09:10.539+05:30  INFO 10605 --- [demo] [nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2026-05-10T18:09:10.539+05:30  INFO 10605 --- [demo] [nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-05-10T18:47:55.483+05:30  INFO 10605 --- [demo] [ionShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-10T18:47:55.503+05:30  INFO 10605 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
