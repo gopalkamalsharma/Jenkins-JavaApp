@@ -51,7 +51,7 @@ pipeline {
 
                 echo "Starting application..."
 
-                nohup java -jar ${APP_DIR}/${JAR_NAME} > ${APP_DIR}/app.log 2>&1 &
+                sudo systemctl restart springboot-app
 
                 """
             }
@@ -78,7 +78,7 @@ pipeline {
         }
 
         failure {
-            echo 'Deployment failed'
+            echo 'Deployment failed!'
         }
 
         always {
